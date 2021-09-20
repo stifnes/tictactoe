@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic Tac Toe - JavaScript</title>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+		<nav>
+			<img src="./img/tic-tac-toe.svg" alt="main_logo">
+			<h1>Tic Tac Toe</h1>
+		</nav>
+    <div class="container">
+      <div class="options">
+        <h2>Choose your Opponent</h2>
+        <div>
+          <button class="computer">Computer</button>
+          <button class="friend">Friend</button>
+        </div>
+
+        <h2>Choose your Symbol</h2>
+        <div>
+          <button class="xBtn">X</button>
+          <button class="oBtn">O</button>
+        </div>
+        <br>
+        <button class="play">Play</button>
+      </div>
+			<canvas id="my-canvas" width="450" height="450"></canvas>
+
+      <div class="gameover hide"></div>
+    </div>
+
+    <script src="/js/options.js"></script>
+    <script src="/js/game.js"></script>
+  </body>
+</html>
